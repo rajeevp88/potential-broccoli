@@ -1,4 +1,4 @@
-package string;
+package com.string;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -47,7 +47,7 @@ public class AllPalindromes {
 	
 	public static void main(String[] args){
 		AllPalindromes p = new AllPalindromes();
-		List<String> l1 = p.allPalindromes("nitin");
+		List<String> l1 = p.allPalindromes("aaaaaaaaaaaaa");
 		for(String s: l1){
 			System.out.print(s+ " ");
 		}

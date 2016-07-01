@@ -1,4 +1,4 @@
-package decoratorPattern;
+package com.designpattern.decorator;
 
 public abstract class DecoratorCoffee implements Coffee {
 	

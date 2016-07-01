@@ -1,4 +1,4 @@
-package decoratorPattern;
+package com.designpattern.decorator;
 
 public class WithMilk extends DecoratorCoffee{
 
