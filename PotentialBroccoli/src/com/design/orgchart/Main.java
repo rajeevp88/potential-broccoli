@@ -7,7 +7,7 @@ public class Main {
 	}
 
 	public static void main(String[] args) {
-		Employee vicePresident = new Employee.EmployeeBuilder()
+		Employee vp = new Employee.EmployeeBuilder()
 								 			 .setName("Rajeev")
 								 			 .setAddress(null)
 								 			 .setPhoneNumber(null)
@@ -77,8 +77,8 @@ public class Main {
 	 			 .setUserId(3)
 	 			 .build();
 		
-		vicePresident.addReport(e1);
-		vicePresident.addReport(e2);
+		vp.addReport(e1);
+		vp.addReport(e2);
 		
 		e1.addReport(m1);
 		e2.addReport(m2);
@@ -88,7 +88,7 @@ public class Main {
 		
 		e4.addReport(e5);
 		
-		System.out.println("max depth = " + vicePresident.maxDepth(vicePresident,0,0));
+		System.out.println("max depth = " + vp.maxDepth(vp,0,0));
 															  
 	}
 
