@@ -3,7 +3,7 @@ package com.designpattern.decorator;
 public class SimpleCoffee implements Coffee {
 
 	@Override
-	public double getCost() {
+	public synchronized double getCost() {
 		return 1;
 	}
 

@@ -48,5 +48,6 @@ public class ThreeSum {
 		
 		int ar1[] = {1,-1,2,-2,3,-1};
 		System.out.println("Three sum exists ? " + ts.threeSum(ar1));
+		
 	}
 }
